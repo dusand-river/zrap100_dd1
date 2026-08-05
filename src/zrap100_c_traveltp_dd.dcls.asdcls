@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZRAP100_C_TRAVELTP_DD'
+@MappingRole: true
+define role ZRAP100_C_TRAVELTP_DD {
+  grant select on ZRAP100_C_TRAVELTP_DD
+  where INHERITING CONDITIONS FROM ENTITY ZRAP100_R_TRAVELTP_DD REPLACING { ROOT WITH _BaseEntity };
+}
