@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Repository",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Manage Travel"
+  },
+  "ui5AppDetails": {
+    "appId": "zrap100_lr"
+  },
+  "navigation": {
+    "targetMappingId": "ZRAP100_LR_UI5R_TM",
+    "semanticObject": "travel",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZRAP100_LR_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Manage Travel"
+      }
+    }
+  ]
+}
